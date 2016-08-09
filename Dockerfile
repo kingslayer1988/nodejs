@@ -1,6 +1,3 @@
-// 文件名：Dockerfile
-// 运行命令:docker build -t hello-world .
-// 运行命令:docker run -d -p 8088:8088 hello-world
 FROM ubuntu:14.04
 MAINTAINER king1016@126.com
 COPY sources.list /etc/apt/sources.list
